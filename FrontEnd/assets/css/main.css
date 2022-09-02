@@ -1,0 +1,82 @@
+*
+{
+    box-sizing: border-box;
+}
+.body1{
+
+    height: 100vh;
+    background-image: url(../../images/backgroundIndex.svg);
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.body2{
+
+    height: 100vh;
+    background-image: url(../../images/body2.svg);
+    background-color: #eff0f1;
+    background-size: contain;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.body3
+{
+    height: 100vh;
+    background-image: url(../../images/connexion.svg);
+    background-color: #eff0f1;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    
+}
+#simple-text-card
+{
+    margin: 0 100px;
+   font-family: Comfortaa;
+}
+#simple-text-card h1
+{
+   font-size: 65px;
+}
+#simple-text-card p
+{
+   font-size: 14px;
+}
+
+.button-wrapper a
+{   padding: 15px;
+    width: 200px;
+    color: black;
+    border: 1px solid #E49B0F;
+    box-shadow: 2px 5px 6px black;
+}
+
+.register
+{   margin-right: 7px;
+     
+}
+
+.card .form-control
+{
+    margin: 10px 0px;
+    box-shadow: 2px 2px 2px black;
+}
+.card-reg
+{   text-transform: capitalize;
+    margin-top: 50px;
+    margin-left: -700px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.card button{
+    background-color: #f2f3f4;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin: 10px ;
+   
+}
+
+.card-login
+{
+    margin-left: 650px;
+}

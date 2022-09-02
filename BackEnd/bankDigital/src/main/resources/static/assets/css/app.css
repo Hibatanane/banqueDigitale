@@ -1,0 +1,76 @@
+*
+{
+    box-sizing: border-box;
+    font-family: comfortaa;
+}
+
+body
+{ 
+    background-color: rgb(184, 214, 248) !important;
+}
+
+.container
+{
+    margin: 10px auto;
+}
+.main-page-header
+{
+   padding: 10px 0;
+}
+.main-page-header .company-name
+{  
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.company-name span{
+    font-size: 40px;
+}
+
+.navigation
+{
+    margin-left: 20px;
+}
+.navigation li
+{
+    display: inline-block;
+    list-style-type: none;
+    margin: 0px 20px  ;
+}
+.navigation li a 
+{
+    color: white;
+    text-decoration: none;
+}
+
+.display-name i
+{
+   font-weight: 900;
+}
+
+#transact-btn
+{
+    background-color: rgb(143, 186, 235);
+    color: black;
+    box-shadow: 2px 2px 2px black;
+}
+#add-account-btn
+{   
+    background-color: rgba(245, 245, 71, 0.911);
+    color: black;
+    box-shadow: 2px 2px 2px black;
+}
+
+.offcanvas 
+{
+    background-color: rgb(184, 214, 248)!important;
+}
+
+.transact-btn
+{
+    background-color: rgb(121, 170, 226) !important;
+    color: black;
+    box-shadow: 2px 1px 3px black;
+}

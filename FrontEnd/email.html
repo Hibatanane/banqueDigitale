@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email</title>
+    <link rel="stylesheet" href="assets/css/email.css">
+    <style>
+ *
+ {
+     box-sizing: border-box;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ body
+ {
+     height: 100vh;
+     background-color: rgba(241, 241, 241, 0.911);
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+ .wrapper
+ {
+     width: 550px;
+     height: auto;
+     padding: 15px;
+    background-color:  white;
+    border-radius: 7px;
+ }
+ .email-msg-header
+ {
+     text-align: center;
+ }
+
+.company-name
+{
+ width: 100%;
+ font-size: 25px;
+ color: rgb(107, 107, 255);
+ text-align: center;
+}
+.welcome-text
+{
+    text-align: center;
+}
+.verify-account-btn
+{
+    padding: 15px;
+    background-color: rgb(107, 107, 255);
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h2 class="email-msg-header">
+            Bienvenue dans votre <br>
+        </h2>
+        <div class="company-name">
+            Banque Digitale
+        </div>
+        <hr>
+        <p class="welcome-text">
+          Merci pour votre inscription. Pour verifier votre compte veuillez cliquer sur le bouton en dessous
+        </p>
+        <br><br>
+        <center>
+            <a href="" class="verify-account-btn" role="button">Valider</a>
+        </center>
+
+    </div>
+</body>
+</html>
